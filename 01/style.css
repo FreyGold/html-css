@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+html {
+   margin: 0;
+   padding: 0;
+   font-size: 62.5%;
+}
+body {
+   font-family: "Fjalla One";
+}
+
+:root {
+   --card-width: 20vw;
+   --card-height: 63vh;
+}
+
+.container {
+   width: 99vw;
+   height: 97vh;
+   margin: auto auto;
+   background-color: rgb(110, 200, 255);
+   border-radius: 4px;
+}
+
+.card-flex-container {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 100%;
+}
+
+.card {
+   text-align: center;
+   width: var(--card-width);
+   height: var(--card-height);
+   background-color: white;
+   border-radius: 5px;
+}
+
+.card img {
+   width: 100%;
+}
+
+.social-flex {
+   gap: 12px;
+   display: flex;
+   justify-content: center;
+}
+.social-flex img {
+   width: 30px;
+}
