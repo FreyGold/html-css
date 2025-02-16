@@ -25,6 +25,13 @@ html {
    border-radius: 1rem;
    position: relative;
    text-align: center;
+   box-shadow: 4px 7px 16px -3px rgba(0, 0, 0, 0.6);
+   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.button:hover {
+   transform: translateY(-5px);
+
+   box-shadow: 4px 12px 22px -3px rgba(0, 0, 0, 0.8);
 }
 .button p {
    color: white;
