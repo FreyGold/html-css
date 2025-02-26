@@ -1,0 +1,95 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+html,
+body {
+   font-family: "Poppins", sans-serif;
+
+   height: 100%;
+   padding: 0 3%;
+}
+.main-container {
+   width: 100%;
+   min-height: 100vh;
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+}
+.main-nav {
+   display: flex;
+   justify-content: space-between;
+   margin: 5% 0;
+   font-size: 1.2rem;
+   height: 20%;
+}
+.main-nav h2 {
+   font-size: 2rem;
+}
+
+.main-nav .right-nav {
+   margin-top: 5px;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 50px;
+}
+.main-nav .right-nav img {
+   width: 40px;
+}
+.main-nav .right-nav a {
+   text-decoration: none;
+   color: black;
+}
+
+.grid {
+   display: grid;
+   width: 100%;
+   flex: 1;
+   grid-template-areas:
+      "eth eth alphabet"
+      "eth eth traveler"
+      "astro cube traveler"
+      "cup insta insta"
+      "cup insta insta"
+      "foam foam dimensional"
+      "foam foam dimensional";
+   gap: 16px;
+   box-sizing: border-box;
+}
+.grid img {
+   max-width: 100%;
+   object-fit: cover;
+   height: 100%;
+   transition: all 0.3s;
+}
+.eth {
+   grid-area: eth;
+}
+.alphabet {
+   grid-area: alphabet;
+}
+.traveler {
+   grid-area: traveler;
+}
+.astro {
+   grid-area: astro;
+}
+.cup {
+   grid-area: cup;
+}
+.insta {
+   grid-area: insta;
+}
+.foam {
+   grid-area: foam;
+}
+.dimensional {
+   grid-area: dimensional;
+}
+
+.footer {
+   font-size: 2rem; /* your current 20rem is extremely large */
+   margin: 50px;
+   text-align: center;
+}

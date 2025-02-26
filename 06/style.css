@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Schoolbell&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+:root {
+   --Dark-Blue: #031439;
+}
+html {
+   font-size: 62.5%;
+   font-family: "Outfit";
+}
+* {
+   margin: 0;
+   padding: 0;
+}
+body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.container {
+   display: flex;
+   width: 144rem;
+   padding: 9.6rem 8rem;
+   flex-direction: column;
+   align-items: center;
+   gap: 6.4rem;
+}
+
+.header {
+   display: flex;
+   width: 108rem;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+}
+.header p {
+   color: #06f;
+   font-family: Schoolbell;
+   font-size: 1.6rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 2.4rem; /* 150% */
+}
+.header h1 {
+   color: var(--Dark-Blue, #031439);
+   text-align: center;
+   font-family: Outfit;
+   font-size: 5.6rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+.header h6 {
+   color: var(--Dark-Blue-400);
+   text-align: center;
+   font-family: Outfit;
+   font-size: 2rem;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 2.8rem;
+}
+
+.body {
+   position: relative;
+   display: flex;
+   width: 108rem;
+   flex-direction: column;
+   align-items: flex-start;
+   border-radius: 2.4rem;
+   border: 1px solid var(--Dark-Blue-100, #e1e3ec);
+   background: var(--White, #fff);
+   box-shadow: 0px 2px 3px -1px rgba(3, 20, 57, 0.12),
+      0px 1px 2px 0px rgba(3, 20, 57, 0.08);
+}
+
+.body .card {
+   display: flex;
+   width: 100%;
+   box-sizing: border-box;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: center;
+   padding: 4rem;
+   line-height: 2.4rem;
+   gap: 1.6rem;
+   border-bottom: 1px solid var(--Dark-Blue-100, #e1e3ec);
+}
+.heading h1 {
+   font-size: 2rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 2.6rem;
+}
+.paragraph p {
+   font-size: 1.6rem;
+   font-style: normal;
+   font-weight: 300;
+}
+.unique {
+   display: flex;
+   padding: 4rem;
+   padding-right: 0;
+   padding-left: 0;
+   align-items: center;
+   gap: 1.6rem;
+   align-self: stretch;
+}
+
+.icon {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+.icon svg {
+   width: 2.4rem;
+   height: 2.4rem;
+}
+
+.star {
+   position: absolute;
+   left: -15rem;
+   top: -5rem;
+   z-index: -1;
+}
+
+.blue {
+   position: absolute;
+   top: 0;
+   right: -9.5rem;
+   z-index: -1;
+}
